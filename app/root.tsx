@@ -10,7 +10,7 @@ import {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Stream Progress Updates with Remix using Defer, Suspense, and Server Sent Events",
   viewport: "width=device-width,initial-scale=1",
 });
 
