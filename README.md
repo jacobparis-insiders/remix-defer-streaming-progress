@@ -2,9 +2,13 @@
 
 This is an example of how to use Remix's Defer feature in combination with an EventStream to stream progress updates to the client.
 
+https://user-images.githubusercontent.com/5633704/222973633-ce8ccde2-ae0f-4880-8039-d11edea67c09.mov
+
+
 We have a form on the homepage that dispatches a long-running process to create a new JSON file. This will take about a minute to complete and will constantly update itself with its progress, from `{ progress: 0 }` to `{ progress: 100 }`.
 
 When it's complete, with a progress of 100, the JSON file will contain a new property `img` that points to a URL.
+
 
 In a more practical scenario, you could use this to track the progress of rendering an image or video. Maybe you're generating a gif from code, or using an AI model to generate an image.
 
