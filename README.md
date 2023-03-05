@@ -2,6 +2,8 @@
 
 This is an example of how to use Remix's Defer feature in combination with an EventStream to stream progress updates to the client.
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jacobparis/remix-defer-streaming-progress)
+
 https://user-images.githubusercontent.com/5633704/222973633-ce8ccde2-ae0f-4880-8039-d11edea67c09.mov
 
 
