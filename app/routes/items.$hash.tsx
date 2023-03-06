@@ -37,7 +37,7 @@ export async function loader({ params }: LoaderArgs) {
         }
 
         return
-      })
+      }, 500)
     }),
   })
 }
